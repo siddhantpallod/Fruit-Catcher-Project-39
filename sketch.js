@@ -44,9 +44,6 @@ function draw() {
    if (gameState === 1) {
      clear(); 
      game.play();
-     textSize(15);
-     fill("white");
-     text("Player1 :" + score,100,100);
    }
 
   if(gameState === 2){ 
